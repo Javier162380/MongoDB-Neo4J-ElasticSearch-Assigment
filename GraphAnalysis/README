@@ -1,0 +1,73 @@
+***********************************************************************
+*********** ANÁLISIS DE GRAFOS Y REDES SOCIALES ***********************
+***********************************************************************
+
+** Autores: Javier LLorente Mañas y Carlos Sánchez Vega
+
+** Objetivo: análisis de un GRAFO a través de la obtención, procesamiento y visualización de un conjunto de datos de la red
+	     En nuestro caso, mostraremos el grafo con las relaciones existentes entre los "colleges" y los equipos de la NFL
+	     (jugadores de cada "college" que fichan los equipos)
+
+** Ficheros: 
+	- data_extraction.py: tiene como objetivo la obtención de datos de una API de la NFL. El ejemplo de un dato de los datos obtenidos es el siguiente:
+			
+			    {
+			      "weight": 215,
+			      "profileId": 81294,
+			      "gsisName": "B.Hoyer",
+			      "uniformNumber": 2,
+			      "fullName": "Brian Hoyer",
+			      "height": 74,
+			      "lastName": "Hoyer",
+			      "firstName": "Brian",
+			      "birthDate": "10/13/1985",
+			      "profileUrl": "http://www.nfl.com/player/brianhoyer/81294/profile",
+			      "status": "Active",
+			      "team": "NE",
+			      "playerId": "00-0026625",
+			      "position": "QB",
+			      "yearsPro": 9,
+			      "college": "Michigan State"
+    			   }
+		Esta clase creará un json con la información recibida.
+
+	- bokeh_graph.py: genera un grafo con pesos con el la libreía de networkx, y una visualización interactiva con la libreía de python bokeh
+
+	- NFL_Graph_Analysis.ipynb: cuaderno de jupyter en el que se muestra un análisis breve de la red a mostrar
+
+	- createGraphInfo.py: clase que genera un json con la estructura necesaria para pintar el grafo con D3
+
+	- betweenness_all_nodes.html: se muestra el grafo en el que el tamaño de todos sus nodos depende de la betweenness que tengan.
+		
+	- betweenness_team_nodes.html: se muestra el grafo en el que el tamaño de los nodos de los equipos dependen de la betweenness que tengan 
+					(los nodos de los colleges tienen un tamaño fijo)
+
+	- closeness_all_nodes.html: se muestra el grafo en el que el tamaño de todos sus nodos depende de la closeness que tengan.
+
+	- closeness_team_nodes.html: se muestra el grafo en el que el tamaño de los nodos de los equipos dependen de la closeness que tengan 
+					(los nodos de los colleges tienen un tamaño fijo)
+
+	- players_received_each_team.html: se muestra el grafo en el que el tamaño de los nodos de los equipos dependen del número de jugadores recibidos
+					(los nodos de los colleges tienen un tamaño fijo)
+
+** Requisitos: 
+		- tener instaladas las librerías:
+			- asyncio
+			- aiohttp
+			- networkx
+			- toolz
+			- BeautifulSoup
+			- urllib
+			- Bokeh
+
+
+** Logros:
+
+	- Se han generado los grafos tanto con D3 como con Bokeh y networkx
+	- En lo que concierne a los grafos generados por D3:
+		- Los nodos de los equipos varían de tamaño según las diferentes medidas de centralidad.
+		- Se muestran las imágenes de los equipos
+		- Al hacer doble click en el nodo de un equipo, nos lleva a su web de ESPN
+		- Tanto los nodos de los equipos, como los de los colleges, muestran información de sus medidas de centralidad.
+		- Las aristas de los nodos tienen pesos según el número de jugadores suministrados del college al equipo
+

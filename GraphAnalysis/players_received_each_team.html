@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Práctica análisis de grafos y redes sociales -  Ferraz</title>
+    <link rel="stylesheet" type="text/css" href="data/leyenda.css">
+</head>
+<body>
+
+<script src='http://d3js.org/d3.v3.min.js'></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script>
+
+    var colors = d3.scale.category10();
+
+    var width = screen.width,
+            height = screen.height;
+
+    var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+                switch (d['type']) {
+                        case 'team':
+                            return "<strong>" + d['id'] + "</strong>" +
+                                    "<br>" +
+                                    "<strong>Betweenness: " + d['betweenness'] + "</strong>" +
+                                    "<br>" +
+                                    "<strong>Closeness: " + d['closeness'] + "</strong>" +
+                                    "<br>" +
+                                    "<strong>Players received: " + d['players_received'] + "</strong>";
+                        default:
+                            return "<strong>" + d['id'] + "</strong>" +
+                                    "<br>" +
+                                    "<strong>Players provided: " + d['players_provided'] + "</strong>" ;
+                    }
+            });
+
+    var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+    var pattern_def = svg.append("defs");  //append defs in svg
+
+    var force = d3.layout.force()
+            .gravity(0.07)
+            .distance(100)
+            .charge(-300)
+            .size([width, height]);
+
+    svg.call(tip);
+
+
+    d3.json('data/allInfo.json', function(error, json) {
+        if (error) throw error;
+
+        force
+                .nodes(json.nodes)
+                .links(json.links)
+                .start();
+
+        var link = svg.selectAll(".link")
+                .data(json.links)
+                .enter().append("line")
+                .attr("class", "link")
+                .attr("font-family", "Arial, Helvetica, sans-serif")
+                .attr("fill", "Black")
+                .style("font", "normal 7px Arial")
+                .attr("stroke-width", function(d) {
+                        if (d.weight>1){
+                            return (d.weight*2);
+                        }
+
+                });
+
+
+        var node = svg.selectAll(".node")
+                .data(json.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .call(force.drag)
+                .on('mouseover', tip.show)
+                .on('mouseout', tip.hide);
+
+        node.append("circle")
+                .attr("r", function (d) {
+                    if (d['type'] == 'team') {
+                        return 10 + (45 * d['players_received'] / 100);
+                    } else {
+                        return 5;
+                    }
+                })
+                .each(function(d,i) {
+                    if ('image' in d) {
+                        // append image pattern for each node
+                        pattern_def.append("pattern")
+                                .attr("id", "node-img" + i)
+                                .attr("patternUnits", "objectBoundingBox")
+                                .attr({
+                                    "width": "100%",
+                                    "height": "100%"
+                                })
+                                .attr({
+                                    "viewBox": "0 0 1 1"
+                                })
+                                .append("image")
+                                .attr("xlink:href", d['image'])
+                                .attr({
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": "1",
+                                    "height": "1",
+                                    "preserveAspectRatio": "none"
+                                })
+
+                        d3.select(this).attr("fill", "url(#node-img" + i + ")")
+                    }
+                })
+                .style("stroke", function (d) {
+                    return '#ffffff';
+                });
+
+
+        var padding = 5,
+                maxRadius = 50;
+
+
+        node.select("circle").forEach(collide(.5));
+
+        node.append("text")
+                .attr("dx", 12)
+                .attr("dy", ".35em")
+                .text(function(d) {
+                    if (d['type']=='college') {
+                        return d.id
+                    }
+                });
+
+        node.attr("fill", function (d) {
+            switch (d['type']) {
+                case 'team':
+                    return colors(0);
+                case 'college':
+                    return colors(1);
+            }
+        });
+
+
+
+        node.on('dblclick', function (d) {
+            if (d['type'] != 'college') {
+                window.open(d['url'], '_blank');
+            }
+        })
+
+        force.on("tick", function() {
+            link.attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+
+            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+        });
+
+
+        function collide(alpha) {
+            var quadtree = d3.geom.quadtree(node);
+            return function(d) {
+                var r = d.radius + maxRadius + padding,
+                        nx1 = d.x - r,
+                        nx2 = d.x + r,
+                        ny1 = d.y - r,
+                        ny2 = d.y + r;
+                quadtree.visit(function(quad, x1, y1, x2, y2) {
+                    if (quad.point && (quad.point !== d)) {
+                        var x = d.x - quad.point.x,
+                                y = d.y - quad.point.y,
+                                l = Math.sqrt(x * x + y * y),
+                                r = d.radius + quad.point.radius + padding;
+                        if (l < r) {
+                            l = (l - r) / l * alpha;
+                            d.x -= x *= l;
+                            d.y -= y *= l;
+                            quad.point.x += x;
+                            quad.point.y += y;
+                        }
+                    }
+                    return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+                });
+            };
+        }
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1051 @@
+{
+  "directed": false,
+  "graph": {},
+  "nodes": [
+    {
+      "url": "https://open.spotify.com/track/22gEQlKFcrTZ12M1AfuwVA",
+      "explicit": false,
+      "track_number": 6,
+      "duration": 261247,
+      "preview": "https://p.scdn.co/mp3-preview/25d17087a7853cf4828d642cc5c34962870a4262?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El Lienzo de la Vida"
+    },
+    {
+      "url": "https://open.spotify.com/track/29s8k4Y8fQp4HU5wy4Iyzf",
+      "explicit": false,
+      "track_number": 10,
+      "duration": 347066,
+      "preview": "https://p.scdn.co/mp3-preview/69c1a72e52ab206d46a8b4232a518888290b66f8?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Esp\u00e9rame"
+    },
+    {
+      "url": "https://open.spotify.com/track/3PElTgeD43jf9GaHo6DkXO",
+      "explicit": false,
+      "track_number": 17,
+      "duration": 241262,
+      "preview": "https://p.scdn.co/mp3-preview/be4b4bd5986c321fe4382d2150b9036926652635?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "La Maledicci\u00f3"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/00e2c79bd1fd0ff14752a3165d497082f9f376ee",
+      "popularity": 0,
+      "followers": 25,
+      "id": "Naltrus"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/915406c7186c1b94675136b962882396ad046b77",
+      "popularity": 37,
+      "followers": 5051,
+      "id": "Dani Flaco"
+    },
+    {
+      "url": "https://open.spotify.com/track/5I9crJ75Lxg52k9CgojQPh",
+      "explicit": false,
+      "track_number": 3,
+      "duration": 303513,
+      "preview": "https://p.scdn.co/mp3-preview/2c490bd2c10e1c4e9f56bb82706e07e11a235c23?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Veinte A\u00f1os"
+    },
+    {
+      "url": "https://open.spotify.com/track/6RQUFfQUzHDhdV3oYa2bwm",
+      "explicit": false,
+      "track_number": 10,
+      "duration": 383786,
+      "preview": "https://p.scdn.co/mp3-preview/f8f7dcb642d25823f0358832d3244bc3268f533a?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Vampiro"
+    },
+    {
+      "url": "https://open.spotify.com/track/1MXkNlknPF3NaTCSHSWwV7",
+      "explicit": false,
+      "track_number": 11,
+      "duration": 228191,
+      "preview": "https://p.scdn.co/mp3-preview/8748b44fc8398ed2139e496d30fa3c13a70448b4?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "15 Juliol 1099"
+    },
+    {
+      "url": "https://open.spotify.com/track/6BZqmu7kdP9m6coksrKJOw",
+      "explicit": false,
+      "track_number": 1,
+      "duration": 58493,
+      "preview": "https://p.scdn.co/mp3-preview/ee2701049ad8db70c5ce56bd8fa848e86ac654f3?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Un Nuevo Mundo"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/4a1322fbb4f924fb51531abe4f6fcac6d522dec0",
+      "popularity": 15,
+      "followers": 895,
+      "id": "Victor Estevez"
+    },
+    {
+      "url": "https://open.spotify.com/track/3SVo6syVf8g9bo4TqkEUPu",
+      "explicit": false,
+      "track_number": 8,
+      "duration": 244110,
+      "preview": "https://p.scdn.co/mp3-preview/1fa2f5c0a85ad422e5640c34caba3d1522498762?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "La Reina del Gel"
+    },
+    {
+      "url": "https://open.spotify.com/track/5eMbHTd8E8zIlIjePV7Kpo",
+      "explicit": false,
+      "track_number": 15,
+      "duration": 279823,
+      "preview": "https://p.scdn.co/mp3-preview/ec828a40904653214c9dac15cfcaeeef7211d828?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Inqui-missi\u00f3"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/9a98dfc1da0226ea5ef7b56e6cc9b13c161e2d17",
+      "popularity": 5,
+      "followers": 204,
+      "id": "Regresi\u00f3n"
+    },
+    {
+      "url": "https://open.spotify.com/track/57u5PkdKP4OmQ5rNmszJNs",
+      "explicit": false,
+      "track_number": 6,
+      "duration": 194280,
+      "preview": "https://p.scdn.co/mp3-preview/e6e028a0a93c2da59ab83eb5ca83b390f8ee2d33?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Nm1g0"
+    },
+    {
+      "url": "https://open.spotify.com/track/5gTO1CglveWc0PbjZUu599",
+      "explicit": false,
+      "track_number": 2,
+      "duration": 219198,
+      "preview": "https://p.scdn.co/mp3-preview/f7c8b487a0929a915683ac014b1418038c8c5386?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Les Creus Vermelles"
+    },
+    {
+      "url": "https://open.spotify.com/track/5bXwB9kb8aG7h30UVqIQ9R",
+      "explicit": false,
+      "track_number": 3,
+      "duration": 254466,
+      "preview": "https://p.scdn.co/mp3-preview/d63232b2af33b1c17db2067a1fd71fb392242a1e?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El \u00daltimo Alado"
+    },
+    {
+      "url": "https://open.spotify.com/track/4v10n5cfNEwv34AbH2L3kE",
+      "explicit": false,
+      "track_number": 2,
+      "duration": 183440,
+      "preview": "https://p.scdn.co/mp3-preview/ca833c7f27f251e31d5016d9438a3a8cfb8a4f83?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Soy Yo"
+    },
+    {
+      "url": "https://open.spotify.com/track/2ThNzv9i4D0VKurvRCklzH",
+      "explicit": false,
+      "track_number": 18,
+      "duration": 262718,
+      "preview": "https://p.scdn.co/mp3-preview/caecb826a832a25219b4d1716af5e9cad529bcc1?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El Vol de L'Home Ocell"
+    },
+    {
+      "url": "https://open.spotify.com/track/42jqgrLPahuvsTtxPxBMKY",
+      "explicit": false,
+      "track_number": 5,
+      "duration": 239930,
+      "preview": "https://p.scdn.co/mp3-preview/1ac0d1538477aa18a480465c39a962405970ad88?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Bruixes"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/cb8de4e88e78c0f3c4e58152c0ace330504fbeb2",
+      "popularity": 28,
+      "followers": 6275,
+      "id": "Joan Colomo"
+    },
+    {
+      "url": "https://open.spotify.com/track/1cgA3LVsdD3QioPD46NkpX",
+      "explicit": false,
+      "track_number": 5,
+      "duration": 332960,
+      "preview": "https://p.scdn.co/mp3-preview/80da635e643792c7b3505e9729ddd0aa8e778a18?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Mira Hacia el Cielo"
+    },
+    {
+      "url": "https://open.spotify.com/album/2NirX114nvZrWAssOteODy",
+      "album_type": "album",
+      "type": "album",
+      "id": "Quintaesencia",
+      "image": "https://i.scdn.co/image/b578ed623695edd3249f8ece4912624e7a6e1291"
+    },
+    {
+      "url": "https://open.spotify.com/track/0s9juB7UOmNkeHUIC7M5nZ",
+      "explicit": false,
+      "track_number": 7,
+      "duration": 249933,
+      "preview": "https://p.scdn.co/mp3-preview/7d734d349e0a10e31f5a89fbd8d4b48209fba36e?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Hoy"
+    },
+    {
+      "url": "https://open.spotify.com/track/67A8CUjAJBIxfj7atMHWfw",
+      "explicit": false,
+      "track_number": 6,
+      "duration": 211320,
+      "preview": "https://p.scdn.co/mp3-preview/1ed9d278b706a972f7fde22aee99822eab5f58b2?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Talento Oculto"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/d7a82c13d201cee17f51f95c424e912afc057b96",
+      "popularity": 28,
+      "followers": 3731,
+      "id": "Ramoncin"
+    },
+    {
+      "url": "https://open.spotify.com/track/33tmwLqDRzzCAtkXY2i6Dp",
+      "explicit": false,
+      "track_number": 4,
+      "duration": 220386,
+      "preview": "https://p.scdn.co/mp3-preview/b14424078e8bff43dc85ba65c5af8395a33f6926?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Esp\u00edritu de Rock N'Roll"
+    },
+    {
+      "url": "https://open.spotify.com/track/74M92chILI94pNX5vA4wKl",
+      "explicit": false,
+      "track_number": 8,
+      "duration": 205640,
+      "preview": "https://p.scdn.co/mp3-preview/eb0f1f5d6b5664d6e6bec2e629bda6e739477973?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Ent\u00f3rname los Ojos"
+    },
+    {
+      "url": "https://open.spotify.com/track/3IpRBxgtx5XLHGzMwws6tC",
+      "explicit": false,
+      "track_number": 4,
+      "duration": 342240,
+      "preview": "https://p.scdn.co/mp3-preview/f151d539e8134c799dd90511a72c2c66c5b0ae72?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Y Ver\u00e1s"
+    },
+    {
+      "url": "https://open.spotify.com/album/7nt3h5yv7eAhufZiPu1WtJ",
+      "album_type": "album",
+      "type": "album",
+      "id": "Horizontes",
+      "image": "https://i.scdn.co/image/f2ec7e43b0ce3497c59b23e49aac111857a35d32"
+    },
+    {
+      "url": "https://open.spotify.com/track/5e69n1KLBBe7PLThqVwyMX",
+      "explicit": false,
+      "track_number": 6,
+      "duration": 301103,
+      "preview": "https://p.scdn.co/mp3-preview/9135290d3fc73dbab15344c3574c2d9de095b74d?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Freddie Memorium"
+    },
+    {
+      "url": "https://open.spotify.com/track/5cak2sdBQp1Qk7f3FnfVh5",
+      "explicit": false,
+      "track_number": 12,
+      "duration": 154786,
+      "preview": "https://p.scdn.co/mp3-preview/b580a0dfee7bedb7cf383b78a9d03c84c4246b3e?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Ciudad del Bien - Bonus Track"
+    },
+    {
+      "url": "https://open.spotify.com/track/2sx5fRRZ2UHMOA90IcUZHs",
+      "explicit": false,
+      "track_number": 1,
+      "duration": 300069,
+      "preview": "https://p.scdn.co/mp3-preview/fc82b1ab7124b6ed3bc40851fdd939ce21d7bf84?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Els Senyors de Les Pedres"
+    },
+    {
+      "url": "https://open.spotify.com/track/09FVrAD0LXm8bZ5iDSvaBx",
+      "explicit": false,
+      "track_number": 13,
+      "duration": 199895,
+      "preview": "https://p.scdn.co/mp3-preview/2fb0b25e78d26166cfb2798627dce9ccfae42788?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "La Lluna I el Navegant"
+    },
+    {
+      "url": "https://open.spotify.com/track/3mP7y8HX2XsEB5J4Vg7JPF",
+      "explicit": false,
+      "track_number": 9,
+      "duration": 321573,
+      "preview": "https://p.scdn.co/mp3-preview/b95797e3ed44bada4ebad95458bdf759ca3743ab?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Junto a Ti"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/8e82b31608687ded1eb9e00eb0eab462a68d44cf",
+      "popularity": 6,
+      "followers": 449,
+      "id": "Dragonslayer"
+    },
+    {
+      "url": "https://open.spotify.com/track/1gRbnT50BqxQ2nsAvgGT8c",
+      "explicit": false,
+      "track_number": 5,
+      "duration": 185973,
+      "preview": "https://p.scdn.co/mp3-preview/df8d6207923fac3ed82a122f25a58de5fa83f8b8?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Quiero Alcanzar Todos Mis Sue\u00f1os"
+    },
+    {
+      "url": "https://open.spotify.com/track/53QhrCLceWzDmXMVvl71qG",
+      "explicit": false,
+      "track_number": 19,
+      "duration": 273946,
+      "preview": "https://p.scdn.co/mp3-preview/6fa0f3f78a253f11fb77928488317d4445777efd?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Inqui-missi\u00f3 - Catal\u00e0"
+    },
+    {
+      "url": "https://open.spotify.com/track/5X0HGxLBtiEjoyeea42HHK",
+      "explicit": false,
+      "track_number": 5,
+      "duration": 218346,
+      "preview": "https://p.scdn.co/mp3-preview/f0c544855862588560b2c1e9774f02403f120816?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El Sue\u00f1o del Infierno"
+    },
+    {
+      "url": "https://open.spotify.com/track/1xj7xCESLml0CPSywKdI4r",
+      "explicit": false,
+      "track_number": 7,
+      "duration": 336466,
+      "preview": "https://p.scdn.co/mp3-preview/45cef0d157c9b31fd40463ff1ff85a3a9256b771?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Llegar\u00e9 al Final"
+    },
+    {
+      "url": "https://open.spotify.com/track/1xeyVyF73LmBs8xSjyfVAk",
+      "explicit": false,
+      "track_number": 3,
+      "duration": 264884,
+      "preview": "https://p.scdn.co/mp3-preview/3e7d576474cbc746f75a923c76de72a92653187e?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Profanaci\u00f3"
+    },
+    {
+      "url": "https://open.spotify.com/track/2anEehjpY5wrzRQVyk3cfV",
+      "explicit": false,
+      "track_number": 10,
+      "duration": 217653,
+      "preview": "https://p.scdn.co/mp3-preview/aedd33c49b0aaff8d50ab2601aa9accd16f37cd6?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Vestido Blanco"
+    },
+    {
+      "url": "https://open.spotify.com/track/4i12hvsEcM0ugePxfMJpGw",
+      "explicit": false,
+      "track_number": 8,
+      "duration": 288670,
+      "preview": "https://p.scdn.co/mp3-preview/b99dd9281bdf906b9dda2612d5917c46fe7334b4?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Cuenta Atr\u00e1s: Un Segundo"
+    },
+    {
+      "url": "https://open.spotify.com/track/4MivhXiVDfmKJXH4bNQnfF",
+      "explicit": false,
+      "track_number": 7,
+      "duration": 316673,
+      "preview": "https://p.scdn.co/mp3-preview/7f375612fd2be1462c0b5c66296622cd6e195c46?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Adi\u00f3s"
+    },
+    {
+      "url": "https://open.spotify.com/track/2de5dVjcFTpPbqiDu3yhta",
+      "explicit": false,
+      "track_number": 5,
+      "duration": 304000,
+      "preview": "https://p.scdn.co/mp3-preview/9b24b2f84f165f65a9741fca1086d4ea2ee2bece?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Desde Hoy"
+    },
+    {
+      "url": "https://open.spotify.com/track/1H5AFA4zSB8QSX7RagpZhX",
+      "explicit": false,
+      "track_number": 8,
+      "duration": 203373,
+      "preview": "https://p.scdn.co/mp3-preview/94cc804f18f37b587d9b11c1de8c6873cf9c26b6?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "H\u00e9roes del Sol Naciente"
+    },
+    {
+      "url": "https://open.spotify.com/track/6S4fczXLzf6GSiRHPcAXGq",
+      "explicit": false,
+      "track_number": 4,
+      "duration": 242533,
+      "preview": "https://p.scdn.co/mp3-preview/a7483b8ce37deb405ef22cf56ec9b787ec9f1892?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Tierra Prometida"
+    },
+    {
+      "type": "artist",
+      "popularity": 0,
+      "followers": 2,
+      "id": "Els Senyors de les Pedres"
+    },
+    {
+      "url": "https://open.spotify.com/track/6ABgfLVxoRzvqMKavhsxU0",
+      "explicit": false,
+      "track_number": 4,
+      "duration": 281518,
+      "preview": "https://p.scdn.co/mp3-preview/914f48b2dca1bdf9ba6c68ee242ff4c5ce91a6ae?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "La Isla del Castigo"
+    },
+    {
+      "url": "https://open.spotify.com/track/53x533KAm2FOeIf9UGRzOp",
+      "explicit": false,
+      "track_number": 9,
+      "duration": 346600,
+      "preview": "https://p.scdn.co/mp3-preview/0e20093f3db45d6e05254dc8d2486bbc8e352a6f?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "M\u00e1s All\u00e1 del Final"
+    },
+    {
+      "url": "https://open.spotify.com/track/0GwFPS3FsGRKzulfofxoxP",
+      "explicit": false,
+      "track_number": 16,
+      "duration": 230276,
+      "preview": "https://p.scdn.co/mp3-preview/9e53c0d121c314a66bc6ef9bc87b21828f6dd8bc?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El Museu dels Arbres Morts"
+    },
+    {
+      "url": "https://open.spotify.com/track/5v7csZGoW0LFJ8uchxC4ba",
+      "explicit": false,
+      "track_number": 1,
+      "duration": 247710,
+      "preview": "https://p.scdn.co/mp3-preview/9fffc5479ab81575cb7c4b6ccdcdd346b36c7e3b?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Cuando Toque Luchar"
+    },
+    {
+      "type": "artist",
+      "popularity": 0,
+      "followers": 3,
+      "id": "Acendra"
+    },
+    {
+      "url": "https://open.spotify.com/track/5az4EcQBtwRGgxWlm3YKvC",
+      "explicit": false,
+      "track_number": 12,
+      "duration": 258364,
+      "preview": "https://p.scdn.co/mp3-preview/9b6a27e6492d261c18b4760337390c2f6da98a0a?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Somnis Entre Boires"
+    },
+    {
+      "url": "https://open.spotify.com/track/0ze8mKnit6ZWhwCvtpOEDP",
+      "explicit": false,
+      "track_number": 11,
+      "duration": 352013,
+      "preview": "https://p.scdn.co/mp3-preview/bf68dad555ce161be3a655f3b86d9004c5c27271?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Torre de Marfil (Horizontes Parte II)"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/4b98ca0ed2fb20a1b39d793e8f9d9a4ecf00c0f2",
+      "popularity": 2,
+      "followers": 35,
+      "id": "Tons & sons"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/c5169f67f85d692f787776c70f9d9e22b0edd9be",
+      "popularity": 0,
+      "followers": 52,
+      "id": "Inmoonere"
+    },
+    {
+      "url": "https://open.spotify.com/track/2KXHZa6bgLEZJKgVodQ4sF",
+      "explicit": false,
+      "track_number": 7,
+      "duration": 124960,
+      "preview": "https://p.scdn.co/mp3-preview/b19615617a10ab33b5faea7b43340434577727f4?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "H\u00e9roes Requiem"
+    },
+    {
+      "url": "https://open.spotify.com/track/5wGPk9UMYRVLEuZv0v7Pgz",
+      "explicit": false,
+      "track_number": 10,
+      "duration": 286318,
+      "preview": "https://p.scdn.co/mp3-preview/e573917dfa43ac90e4d17d7a94086016c44dec92?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Nascut Per Morir"
+    },
+    {
+      "url": "https://open.spotify.com/track/3mID5Gmbgll3m3y7LTQuIV",
+      "explicit": false,
+      "track_number": 1,
+      "duration": 264120,
+      "preview": "https://p.scdn.co/mp3-preview/103a765292240bcedc09b1546f660e2c59b8b55e?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Cazador"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/c86a271f049ef80ce17697d31bababd99e6db9f0",
+      "popularity": 1,
+      "followers": 86,
+      "id": "Noct\u00e4mbuls"
+    },
+    {
+      "url": "https://open.spotify.com/track/1AdXNKDDeOFX3btzHtwHXc",
+      "explicit": false,
+      "track_number": 9,
+      "duration": 222135,
+      "preview": "https://p.scdn.co/mp3-preview/56351448beb239e67926bd376cb99a504235cfdb?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El Guerrer"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/bc9d2495ee203e993e71614f5d2529a74c81b4e9",
+      "popularity": 2,
+      "followers": 109,
+      "id": "Fa\u00e8rica"
+    },
+    {
+      "url": "https://open.spotify.com/track/3Aditnq7tg7kNvZDC45Dml",
+      "explicit": false,
+      "track_number": 4,
+      "duration": 184417,
+      "preview": "https://p.scdn.co/mp3-preview/f21aaefc2a5c1426a1830f322896b5499767a160?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "El Bosc de Formig\u00f3"
+    },
+    {
+      "url": "https://open.spotify.com/track/6h8nvF6UqHqI24i7hDoORG",
+      "explicit": false,
+      "track_number": 2,
+      "duration": 284080,
+      "preview": "https://p.scdn.co/mp3-preview/1e9cc81f941924066c6673f4d5ec9ff8fe7ab7a9?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Esmeralda"
+    },
+    {
+      "url": "https://open.spotify.com/track/7HtEl66XE4vJKGrC7CZPfX",
+      "explicit": false,
+      "track_number": 1,
+      "duration": 218666,
+      "preview": "https://p.scdn.co/mp3-preview/6d8bf126d748c8db8b25a15f05705a1941d7f92f?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Mr. Oscuro"
+    },
+    {
+      "url": "https://open.spotify.com/track/0Ynm3pUhQc07WYicle823I",
+      "explicit": false,
+      "track_number": 9,
+      "duration": 209536,
+      "preview": "https://p.scdn.co/mp3-preview/18d09d59fc54ddf468ec58ef1511a5a1987d5a6f?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Despidiendo al Para\u00edso"
+    },
+    {
+      "url": "https://open.spotify.com/track/37XRugiJDGSHdyhg3Uc9Hk",
+      "explicit": false,
+      "track_number": 3,
+      "duration": 282440,
+      "preview": "https://p.scdn.co/mp3-preview/6be5e8df371b780e6b1e1ff7a17ba72e0a0c9919?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Nada Podr\u00e1 Detener"
+    },
+    {
+      "url": "https://open.spotify.com/album/7z6tT8fLDyjrEpOTqxFSyC",
+      "album_type": "album",
+      "type": "album",
+      "id": "Ciudad del Caos",
+      "image": "https://i.scdn.co/image/7a3e9600571a3a903f671f6fa076e15eb9bb42b7"
+    },
+    {
+      "type": "artist",
+      "popularity": 0,
+      "followers": 1,
+      "id": "Ric Vinaixa"
+    },
+    {
+      "url": "https://open.spotify.com/track/04HclvVgwmFfcqmAuwMPzp",
+      "explicit": false,
+      "track_number": 7,
+      "duration": 200455,
+      "preview": "https://p.scdn.co/mp3-preview/2f550fd84b0f16a78191e6bdd2580b74737083e8?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Sang en el Fang"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/560c1860d66c4098149180782a67c5f87e57c859",
+      "popularity": 25,
+      "followers": 6665,
+      "id": "Lujuria"
+    },
+    {
+      "url": "https://open.spotify.com/track/4qNLvPE2XZaNty7Xm5XWYG",
+      "explicit": false,
+      "track_number": 14,
+      "duration": 208352,
+      "preview": "https://p.scdn.co/mp3-preview/0893fb387b3cab9af1e6673a4ae4139fb50ff6af?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Al\u00e8 de Mil-Cent"
+    },
+    {
+      "url": "https://open.spotify.com/album/0Q7lPUVqAasJS4L0W636Mk",
+      "album_type": "compilation",
+      "type": "album",
+      "id": "No Hi Ha Qui Els Pari (Tribut a Sangtra\u00eft)",
+      "image": "https://i.scdn.co/image/ee4947921e07c6258c0261344d99d2b1672ca4e0"
+    },
+    {
+      "url": "https://open.spotify.com/track/0qHB0ZAtJQ5eYbae0ws5pE",
+      "explicit": false,
+      "track_number": 9,
+      "duration": 276226,
+      "preview": "https://p.scdn.co/mp3-preview/8115ce7044b315d4ef8f654958c1707996c3786b?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Inquisici\u00f3n"
+    },
+    {
+      "url": "https://open.spotify.com/track/7lGHv0FE497ljP2JeHtQ53",
+      "explicit": false,
+      "track_number": 11,
+      "duration": 243706,
+      "preview": "https://p.scdn.co/mp3-preview/8ec6ca010111128d0d697630bf5af34ab4af9c63?cid=6face74bb58c4d7bbfe5f38734602469",
+      "type": "track",
+      "id": "Muerte o Salvaci\u00f3n"
+    },
+    {
+      "url": "https://open.spotify.com/album/7wrWuov94Gxv9vmOPmWajN",
+      "album_type": "album",
+      "type": "album",
+      "id": "Bienvenido al Para\u00edso",
+      "image": "https://i.scdn.co/image/414fa9749331311b739f569c75b46ef1d4020b25"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/7a3e9600571a3a903f671f6fa076e15eb9bb42b7",
+      "popularity": 7,
+      "followers": 376,
+      "id": "Leyenda"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/0116b475b7d3573463c144f4a90daaeee86b8366",
+      "popularity": 0,
+      "followers": 35,
+      "id": "Nan Roig"
+    },
+    {
+      "type": "artist",
+      "image": "https://i.scdn.co/image/715bc02eeb7c7126545ff1a89f852ebefb04f013",
+      "popularity": 39,
+      "followers": 24910,
+      "id": "Lax'n'Busto"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 75
+    },
+    {
+      "source": 1,
+      "target": 21
+    },
+    {
+      "source": 2,
+      "target": 51
+    },
+    {
+      "source": 2,
+      "target": 72
+    },
+    {
+      "source": 3,
+      "target": 7
+    },
+    {
+      "source": 3,
+      "target": 76
+    },
+    {
+      "source": 4,
+      "target": 76
+    },
+    {
+      "source": 4,
+      "target": 10
+    },
+    {
+      "source": 5,
+      "target": 75
+    },
+    {
+      "source": 6,
+      "target": 28
+    },
+    {
+      "source": 7,
+      "target": 72
+    },
+    {
+      "source": 8,
+      "target": 67
+    },
+    {
+      "source": 9,
+      "target": 62
+    },
+    {
+      "source": 9,
+      "target": 76
+    },
+    {
+      "source": 10,
+      "target": 72
+    },
+    {
+      "source": 11,
+      "target": 72
+    },
+    {
+      "source": 12,
+      "target": 18
+    },
+    {
+      "source": 12,
+      "target": 76
+    },
+    {
+      "source": 13,
+      "target": 67
+    },
+    {
+      "source": 14,
+      "target": 34
+    },
+    {
+      "source": 14,
+      "target": 72
+    },
+    {
+      "source": 15,
+      "target": 21
+    },
+    {
+      "source": 16,
+      "target": 21
+    },
+    {
+      "source": 17,
+      "target": 68
+    },
+    {
+      "source": 17,
+      "target": 72
+    },
+    {
+      "source": 18,
+      "target": 72
+    },
+    {
+      "source": 19,
+      "target": 60
+    },
+    {
+      "source": 19,
+      "target": 76
+    },
+    {
+      "source": 20,
+      "target": 28
+    },
+    {
+      "source": 21,
+      "target": 58
+    },
+    {
+      "source": 21,
+      "target": 23
+    },
+    {
+      "source": 21,
+      "target": 38
+    },
+    {
+      "source": 21,
+      "target": 48
+    },
+    {
+      "source": 21,
+      "target": 27
+    },
+    {
+      "source": 21,
+      "target": 37
+    },
+    {
+      "source": 21,
+      "target": 76
+    },
+    {
+      "source": 21,
+      "target": 74
+    },
+    {
+      "source": 22,
+      "target": 28
+    },
+    {
+      "source": 24,
+      "target": 57
+    },
+    {
+      "source": 24,
+      "target": 76
+    },
+    {
+      "source": 25,
+      "target": 28
+    },
+    {
+      "source": 26,
+      "target": 28
+    },
+    {
+      "source": 28,
+      "target": 66
+    },
+    {
+      "source": 28,
+      "target": 64
+    },
+    {
+      "source": 28,
+      "target": 73
+    },
+    {
+      "source": 28,
+      "target": 76
+    },
+    {
+      "source": 29,
+      "target": 54
+    },
+    {
+      "source": 29,
+      "target": 72
+    },
+    {
+      "source": 30,
+      "target": 67
+    },
+    {
+      "source": 31,
+      "target": 59
+    },
+    {
+      "source": 31,
+      "target": 72
+    },
+    {
+      "source": 32,
+      "target": 61
+    },
+    {
+      "source": 32,
+      "target": 72
+    },
+    {
+      "source": 33,
+      "target": 67
+    },
+    {
+      "source": 34,
+      "target": 76
+    },
+    {
+      "source": 35,
+      "target": 67
+    },
+    {
+      "source": 36,
+      "target": 72
+    },
+    {
+      "source": 39,
+      "target": 70
+    },
+    {
+      "source": 39,
+      "target": 72
+    },
+    {
+      "source": 40,
+      "target": 67
+    },
+    {
+      "source": 41,
+      "target": 75
+    },
+    {
+      "source": 42,
+      "target": 75
+    },
+    {
+      "source": 43,
+      "target": 75
+    },
+    {
+      "source": 44,
+      "target": 67
+    },
+    {
+      "source": 45,
+      "target": 67
+    },
+    {
+      "source": 46,
+      "target": 71
+    },
+    {
+      "source": 46,
+      "target": 76
+    },
+    {
+      "source": 47,
+      "target": 75
+    },
+    {
+      "source": 49,
+      "target": 77
+    },
+    {
+      "source": 49,
+      "target": 72
+    },
+    {
+      "source": 50,
+      "target": 75
+    },
+    {
+      "source": 51,
+      "target": 76
+    },
+    {
+      "source": 52,
+      "target": 55
+    },
+    {
+      "source": 52,
+      "target": 72
+    },
+    {
+      "source": 53,
+      "target": 67
+    },
+    {
+      "source": 54,
+      "target": 76
+    },
+    {
+      "source": 55,
+      "target": 76
+    },
+    {
+      "source": 56,
+      "target": 67
+    },
+    {
+      "source": 57,
+      "target": 72
+    },
+    {
+      "source": 59,
+      "target": 76
+    },
+    {
+      "source": 60,
+      "target": 72
+    },
+    {
+      "source": 61,
+      "target": 76
+    },
+    {
+      "source": 62,
+      "target": 72
+    },
+    {
+      "source": 63,
+      "target": 67
+    },
+    {
+      "source": 65,
+      "target": 75
+    },
+    {
+      "source": 67,
+      "target": 76
+    },
+    {
+      "source": 68,
+      "target": 76
+    },
+    {
+      "source": 69,
+      "target": 78
+    },
+    {
+      "source": 69,
+      "target": 72
+    },
+    {
+      "source": 70,
+      "target": 76
+    },
+    {
+      "source": 71,
+      "target": 72
+    },
+    {
+      "source": 72,
+      "target": 76
+    },
+    {
+      "source": 75,
+      "target": 76
+    },
+    {
+      "source": 76,
+      "target": 77
+    },
+    {
+      "source": 76,
+      "target": 78
+    }
+  ],
+  "multigraph": false
+}

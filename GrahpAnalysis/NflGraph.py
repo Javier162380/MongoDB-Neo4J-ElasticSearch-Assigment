@@ -5,6 +5,7 @@ import json
 async def download_nfl_player_data(team):
     async with aiohttp.ClientSession() as client:
         response = await client.request('GET','http://api.suredbits.com/nfl/v0/team/{0}/roster'.format(team))
+        print(response)
         json_value_return = await response.json()
         return json_value_return
 
